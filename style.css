@@ -1,0 +1,100 @@
+*{padding: 0;margin: 0;outline: 0}
+
+body
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header
+{
+	background: #565656 none repeat scroll 0 0;
+	color:#fff;
+	padding: 20px;
+	text-align: center; 
+}
+
+.menu
+{
+	margin-top: 3px;
+	overflow: hidden;
+	margin-left:250px;
+	margin-bottom: 10px;
+}
+
+.menu ul
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.menu ul li 
+{
+	display: block;
+	float: left;
+}
+
+.menu ul li a
+{
+	background: #818181 none repeat scroll 0 0;
+	color:#fff;
+	padding:8px 20px;
+	font-weight: bold;
+	margin-right: 1px solid #000;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.menu ul li a:hover
+{
+	background: #666;
+}
+
+.content
+{
+	width:500px;
+	background: #e7e7e7;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+input[type = "text"], input[type = "email"], input[type = "password"]
+{
+	width:285px;
+	border:1px solid #d5d5d5;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	margin-left: 5px;
+
+}
+
+input[type = "submit"],input[type = "reset"]
+{
+	background: #888;
+	color:#fff;
+	border:1px solid #626262;
+	border-radius: 3px;
+	width: 80px;
+	padding: 3px;
+	cursor: pointer;
+}
+
+input[type = "submit"],input[type = "reset"]:hover
+{
+	background: #666;
+}
+
+.msg
+{
+	margin-left:250px;
+}
+.footer
+{
+	background: #565656 none repeat scroll 0 0;
+	color:#fff;
+	padding: 10px;
+	text-align: center; 
+	margin-top: 10px;
+}
